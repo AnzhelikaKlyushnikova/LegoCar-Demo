@@ -1,4 +1,6 @@
 const gulp = require('gulp');
+const ghPages = require('gh-pages');
+const path = require('path');
 
 // Tasks
 require('./gulp/dev.js');
@@ -21,3 +23,8 @@ gulp.task(
 		gulp.parallel('server:docs')
 	)
 );
+
+function deploy(cb) {
+	ghPages.publish(path.join(process.cwd(), './build'), cb);
+  }
+  exports.deploy = deploy;
