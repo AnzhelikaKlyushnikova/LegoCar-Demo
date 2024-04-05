@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Стартовый шаблон</title>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header class="header">
+    <div class="header__wrapper">
+        <div class="container">
+            <div class="header__row-container">
+                <div class="header__row">
+                    <div class="header__logo">
+                        <button href="#"><img class="header__logo-img" src="img/Logo.svg" alt="logo"></button>
+                    </div>
+                    <nav class="header__list-wrapper">
+                        <ul class="header__list">
+                            <li class="header__list-name"><a href="#">Автомобили в наличии</a></li>
+                            <li class="header__list-name"><a href="#">Спецпредложения</a></li>
+                            <li class="header__list-name"><a href="#">Продать авто</a></li>
+                            <li class="header__list-name"><a href="#">Сервис</a></li>
+                            <li class="header__list-name"><a href="#">Контакты</a></li>
+                        </ul>
+                        <button class="header__btn">Заказать звонок</button>
+                        <button class="mob-burger"><img class="header__mob-burger " src="img/mob-menu.svg" alt="mob-menu"></button>
+                    </nav>
+                </div>
+                <div class="header__nav-wrapper">
+                    <div class="header__nav">
+                        <div class="header__nav-text"><img class="header__icon" src="img/icon-nav.svg" alt="nav">
+                            <a href="#">Олимпийский просп., 5, стр. 1, Москва</a>
+                        </div>
+                        <div class="header__nav-text"><img class="header__icon" src="img/icon-path.svg" alt="path">
+                            <a href="#">Проложить маршрут</a>
+                        </div>
+                    </div>
+                    <div class="header__nav-text"><img class="header__icon" src="img/icon-time.svg" alt="time">9:00 - 21:00 (ежедневно)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__line"></div>
+</header>
+<div class="mobile-nav mob-menu">
+	<button class="close"><img src="img/close.svg" alt="close"></button>
+	<ul class="mobile-nav__list">
+		<li><a class="mob-list hover" href="#" >Автомобили в наличии</a></li>
+		<li><a class="mob-list hover" href="#!">Спецпредложения</a></li>
+		<li><a class="mob-list hover" href="#!">Продать авто</a></li>
+		<li><a class="mob-list hover" href="#!">Сервис</a></li>
+		<li><a class="mob-list hover" href="#!">Контакты</a></li>
+	</ul>
+</div>
+
+		<div class="hero">
+    <div class="container-hero">
+        <div class="container">
+            <div class="hero__container">
+                <h1 class="hero__h1">Теперь услуги дилерского центра Вы можете можете получить онлайн!</h1>
+                <div class="hero__card-wrapper">
+                    <div class="hero__card-one">
+                        <div class="hero__info">
+                            <div class="hero__title">
+                                <h2 class="hero__h2">Диагностика автомобиля перед покупкой</h2>
+                                <div class="hero__subtitle">Расскажем обо всех скрытых дефектах автомобиля с пробегом</div>
+                            </div>
+                            <button class="btn hero__btn">Записаться</button>
+                        </div>
+                    </div>
+                        <div class="hero__card-two">
+                            <div class="hero__info">
+                                <div class="hero__title">
+                                    <h2 class="hero__h2">Онлайн показ автомобиля по видеосвязи</h2>
+                                    <div class="hero__subtitle">Проведем онлайн-показ интересующего автомобиля в удобное для Вас время</div>
+                                </div>
+                                <button class="btn hero__btn hero__btn-two">Оставить заявку</button>
+                            </div>
+                        </div>
+                        <div class="hero__card-three">
+                            <div class="hero__info">
+                                <div class="hero__title">
+                                    <h2 class="hero__h2">Онлайн бронирование</h2>
+                                    <div class="hero__subtitle">Забронируйте понравившийся автомобиль без визита в дилерский центр</div>
+                                </div>
+                                <button class="btn hero__btn hero__btn-three">Забронировать</button>
+                            </div>
+                        </div>
+                    <div class="hero__card-four">
+                        <div class="hero__info hero__info-mob">
+                            <div class="hero__title">
+                                <h2 class="hero__h2">Онлайн оценка автомобиля с пробегом</h2>
+                                <div class="hero__subtitle">Узнайте предварительную стоимость автомобиля за 1 мин, указав его параметры</div>
+                            </div>
+                            <button class="btn hero__btn hero__btn-four"><span class="hero__btn-active">Оценить</span><span class="hero__btn-active-two">Оставить заявку</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
